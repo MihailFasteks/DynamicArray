@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DBD118DB2AC8C0AC00957823 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD118DA2AC8C0AC00957823 /* main.cpp */; };
+		DBD118E72AC8C16400957823 /* Dynamic array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBD118E52AC8C16400957823 /* Dynamic array.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DBD118D72AC8C0AC00957823 /* Dynamic array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Dynamic array"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD118DA2AC8C0AC00957823 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DBD118E52AC8C16400957823 /* Dynamic array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Dynamic array.cpp"; sourceTree = "<group>"; };
+		DBD118E62AC8C16400957823 /* Dynamic array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Dynamic array.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				DBD118DA2AC8C0AC00957823 /* main.cpp */,
+				DBD118E52AC8C16400957823 /* Dynamic array.cpp */,
+				DBD118E62AC8C16400957823 /* Dynamic array.hpp */,
 			);
 			path = "Dynamic array";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD118E72AC8C16400957823 /* Dynamic array.cpp in Sources */,
 				DBD118DB2AC8C0AC00957823 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

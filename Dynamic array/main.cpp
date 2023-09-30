@@ -1,14 +1,32 @@
-//
-//  main.cpp
-//  Dynamic array
-//
-//  Created by Michalis on 30.09.2023.
-//
+#include "Dynamic array.hpp"
 
-#include <iostream>
+DynamicArray GetObj() //‚ÓÁ‚‡Ú ÔÓ ÁÌ‡˜ÂÌË˛
+{
+    DynamicArray obj(3);
+    obj.Input();
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    return obj;
+}
+int main()
+{
+    DynamicArray a(5); // constructor 1 param
+    a.Input();
+    a.Output();
+    DynamicArray b = a; // copy constructor
+    b.Output();
+
+    DynamicArray rezult = GetObj();
+    rezult.Output();
+    cout<<endl;
+    a.ReSize(2);
+    a.Output();
+    cout<<endl;
+    a.Sort();
+    a.Output();
+    cout<<endl;
+    a.Search(9);
+    cout<<endl;
+    a.Reverse();
+    a.Output();
+    
 }
